@@ -1,0 +1,276 @@
+﻿.hoshi{
+	font-weight: 700;
+	color: #3D5283;
+	line-height: 1.2em;
+	margin-bottom: 2%;
+}
+.container_set{
+	margin: 3% auto 3% auto;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.set_left{
+	width: 60%;
+	background-color: #FFFFFF;
+}
+.box {
+	position: relative;
+	padding: 3rem 1rem 1rem 1.5rem;
+	background: linear-gradient(177deg, transparent 2rem, #f4f22e 0 100%);
+	display: flex;
+	flex-wrap: wrap;
+}
+.box img {
+	border-style: inset;
+	border-width: 2px;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+.box_title{
+	text-align: center;
+	font-weight: 900;
+	font-size: 30px;
+	color: #FFFFFF;
+	padding-left: 8%;
+	padding-top: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000099;
+}
+.box_title::before,
+.box_title::after {
+    width: 3px;
+    height: 40px;
+    background-color: #000099;
+    content: '';
+}
+
+.box_title::before {
+    transform: rotate(-35deg);
+    margin-right: 30px;
+}
+
+.box_title::after {
+    transform: rotate(35deg);
+    margin-left: 30px;
+}
+
+.box_p{
+	line-height: 23px;
+	padding-top: 10px;
+	font-weight: 800;
+	color: #333333;
+}
+.set_right{
+	padding: 2% 4% 2% 4%;
+	border: 1px solid #CCCCCC;
+	width: 31.8%;
+	background-color: #FFFFFF;
+}
+.btn{
+	margin: 0px;
+	border-radius: 5px;
+	background-color: #666666;
+	color: white;
+	padding: 5px;
+	font-weight: 900;
+}
+.sub_title{
+	font-weight: 900;
+	font-size: 0.8em;
+	color: #C0C0C0;
+}
+.fee{
+	font-weight: 900;
+	font-size: 30px;
+	color: #FF0000;
+}
+.sub_fee{
+	font-size: 12px;
+	color: #333333;
+	font-weight: 400;
+}
+hr{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.table_title{
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 5px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+table tr{
+  border-bottom: solid 2px white;
+}
+
+table tr:last-child{
+  border-bottom: none;
+}
+
+table th{
+	position: relative;
+	text-align: left;
+	width: 20%;
+	background-color: #999999;
+	color: white;
+	text-align: center;
+	padding: 5px 0;
+}
+table th:after{
+	display: block;
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: calc(50% - 10px);
+	right: -10px;
+	border-left: 10px solid #ffd42d;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: #999999;
+}
+table td{
+	background-color: #eee;
+	padding: 5px 0;
+	text-indent: 15px;
+}
+.botan{
+	margin: 2% 0px 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.botan-next_margin{
+	margin-right:2%
+}
+.botan-next a {
+	background: #eee;
+	border-radius: 3px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto 0 auto;
+	padding: 10px 40px 10px 10px;
+	transition: 0.3s ease-in-out;
+	font-weight: 900;
+}
+.botan-next a:after {
+content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 2rem;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.3s;
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  transform: translateY(-50%) rotate(45deg);
+  }
+.botan-next a:hover {
+	background: #FFFF00;
+	color: #0099FF;
+}
+.botan-next a:hover:after {
+  right: 1rem;
+}
+
+
+.con-m5{
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 8%;
+	box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
+	margin-top: 3%;
+}
+.con-m5-left{
+	width: 38%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	align-self:flex-start
+}
+.con-m5-right{
+	width: 56%;
+	margin-left: 2%;
+	margin-right: 2%;
+	line-height: 25px;
+	list-style: none;
+	margin-bottom: 2%;
+	font-size: 0.9em;
+}
+
+@media screen and (max-width: 960px) {
+.hoshi{
+	font-weight: 600;
+	margin-top:2%;
+	margin-bottom:5%
+}
+.container_set{
+	width: 90%;
+}
+.set_left{
+	width: 100%;
+}
+.box img {
+	width: 80px;
+	height:80px;
+}
+
+.box_title{
+	font-weight: 900;
+	font-size: 18px;
+	padding-left: 4%;
+}
+
+.box_title::before,
+.box_title::after {
+    height: 15px;
+}
+
+.box_title::before {
+    margin-right: 5px;
+}
+.box_title::after {
+    margin-left: 5px;
+}
+.set_right{
+	padding: 1% 2% 2% 2%;
+	border: 1px solid #CCCCCC;
+	width: 96.8%;
+	background-color: #FFFFFF;
+}
+.fee{
+	font-size: 28px;
+}
+.con-m5-left{
+	width: 98%
+}
+.con-m5-right{
+	width: 98%;
+}
+
+}

@@ -1,0 +1,40 @@
+﻿.table_profile {
+	width: 80%;
+	border-collapse: collapse;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 3%;
+}
+
+.table_profile th, td {
+padding: 10px 15px;
+border: 1px solid #ddd;
+}
+
+.table_profile th {
+background: #f4f4f4;
+width: 15%;
+text-align: left;
+}
+.google-map{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width:960px) {
+.table_profile {
+	width: 100%;
+}
+.table_profile th, td {
+width: auto;
+display: block;
+border-top: none;
+}
+.table_profile tr:first-child {
+border-top: 1px solid #d5d5d5;
+}
+.google-map{
+	width: 80%;
+}
+}

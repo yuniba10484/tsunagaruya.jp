@@ -1,0 +1,108 @@
+﻿.form_box{
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #FAFAFA;
+	margin-top: 3%;
+}
+.form_box_left{
+	margin: 3% 5% 3% -2%;
+	width: 30%;
+}
+.form_box_right{
+	width: 59%;
+}
+.form_title {
+	padding: 1%;
+	color: #fff;
+	border-radius: 2%;
+	background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
+	text-align: center;
+	font-weight: 900;
+	font-size: 18px;
+}
+
+input[type=text] {
+	width: 80%;
+	float: none;
+	padding: 0.5em;
+	margin-bottom: 1%;
+}
+input[type=checkbox]{
+	line-height: 0.5em;
+	margin-bottom: 1%;
+}
+input[type=submit] {
+	border: none;
+	outline: none;
+	display: block;
+	line-height: 30px;
+	width: 160px;
+	text-align: center;
+	font-size: 13px;
+	color: #fff;
+	background-color: #808080;
+	border-bottom: 4px solid #696969;
+	cursor: pointer;
+	box-sizing: content-box;
+	transition: 0.1s ease all;
+	margin-right: auto;
+	margin-left: auto;
+}
+input[type=submit]:hover{
+  opacity:0.6;
+}
+.form_submit{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+textarea{
+	width: 90%;
+	height: 100%;
+}
+.privacyporicy{
+	padding: 2%;
+	width: 45%;
+	height: 150px;
+	overflow: scroll;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F0F0F0;
+	margin-bottom: 3%;
+	font-size: 0.8em;
+}
+.btn{
+	width: 80%;
+	margin-left: 10%;
+}
+.ssl{
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding-bottom: 5%;
+}
+@media only screen and (max-width: 960px) {
+.form_box{
+width:80%
+}
+.form_box_left{
+	margin: 3% 5% 3% -2%;
+	width: 100%;
+}
+.form_box_right{
+	width: 90%;
+	margin-left: 10%;
+}
+.privacyporicy{
+	width: 80%;
+	font-size: 0.7em;
+}
+}
