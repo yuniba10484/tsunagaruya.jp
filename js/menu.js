@@ -16,3 +16,15 @@
     $nav.removeClass(open);
   });
 })(jQuery);
+
+const fadeElements = document.querySelectorAll('.fadein');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+fadeElements.forEach(el => observer.observe(el));
