@@ -125,17 +125,17 @@ flex-direction: row-reverse;
 }
 .column1 {
   background: #fce88d;
-  padding: 15px;
+  padding: 60px;
   box-sizing: border-box;
 }
 .column-wrapper:nth-of-type(2n) .column1:nth-of-type(2){
   background: #b5ffb6;
 }
 .column1title {
-  font-size: 14px;
+  font-size: 25px;
 }
 .column1txt {
-  font-size: 14px;
+  font-size: 15px;
 }
 .column2 img {
   height: 100%;
@@ -151,6 +151,13 @@ flex-direction: row-reverse;
   width: 100%;
 }
   .column1 {
-  padding: 2px;
+  padding: 25px;
 }
+}
+.column1title h1 {
+  margin-bottom: 10px;
+}
+
+.column1title h3 {
+  margin-top: 0;
 }
