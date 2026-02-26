@@ -47,9 +47,8 @@ table{
 	border-collapse: collapse;
 	width: 65%;
 	border-spacing: 1px;
-	line-height: 45px;
+	line-height: 1.6;
 	align-self: flex-start;
-	margin-left: -2%;
 }
 .responsive-table th,
 .responsive-table td{
@@ -114,49 +113,63 @@ table{
   width: 100%;
   display: flex;
 }
+
 .column-wrapper:nth-of-type(even) {
   flex-direction: row-reverse;
 }
+
 .column1, .column2 {
   width: 50%;
   display: flex;
   align-items: center;
+  min-height: 420px;
 }
+
 .column1 {
   background: #fce88d;
   padding: 60px;
   box-sizing: border-box;
 }
+
 .column-wrapper:nth-of-type(even) .column1 {
   background: #b5ffb6;
 }
-.column1title {
-  font-size: 25px;
-}
-.column1txt {
-  font-size: 15px;
-}
+
 .column2 img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
-@media screen and ( max-width:500px )
-{
+/* ===== スマホ表示（画像 → テキストに統一） ===== */
+@media screen and (max-width: 768px) {
+
   .column-wrapper {
     flex-direction: column;
   }
-  .column1, .column2 {
-  width: 100%;
-}
-  .column1 {
-  padding: 25px;
-}
-}
-.column1title h1 {
-  margin-bottom: 10px;
-}
 
-.column1title h3 {
-  margin-top: 0;
+  /* 偶数の row-reverse を無効化 */
+  .column-wrapper:nth-of-type(even) {
+    flex-direction: column;
+  }
+
+  /* 並び順を指定 */
+  .column2 {
+    order: 1;   /* 画像を先に */
+  }
+
+  .column1 {
+    order: 2;   /* テキストを後に */
+  }
+
+  .column1,
+  .column2 {
+    width: 100%;
+  }
+
+  /* 画像崩れ防止（iPhone対策） */
+  .column2 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
 }

@@ -149,4 +149,17 @@
 	margin-right: 0%;
 }
 }
+.service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #14E028;
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.2;
+  text-decoration: none;
+}
 
+.service-link:hover {
+  text-decoration: underline;
+}
