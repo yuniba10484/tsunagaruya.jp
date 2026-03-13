@@ -372,10 +372,22 @@ footer{
 
 
 .foot-logo{
-	width: 80%;
-	margin-top: 2%;
-	margin-left: auto;
-	margin-right: auto;
+	width:80%;
+	margin:2% auto;
+	text-align:center;
+}
+
+.foot-logo img{
+	max-width:100%;
+	height:auto;
+}
+
+@media screen and (max-width:768px){
+
+.foot-logo{
+	width:90%;
+}
+
 }
 .footer-item{
 	justify-content: flex-end;
