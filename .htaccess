@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# wwwあり → wwwなし ＋ https に統一
+RewriteCond %{HTTP_HOST} ^www\.yy13\.113\.co\.jp$ [NC]
+RewriteRule ^(.*)$ https://yy13.113.co.jp/$1 [R=301,L]
+
+# http → https に統一（wwwなしは維持）
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^yy13\.113\.co\.jp$ [NC]
+RewriteRule ^(.*)$ https://yy13.113.co.jp/$1 [R=301,L]

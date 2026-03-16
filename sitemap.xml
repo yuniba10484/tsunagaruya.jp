@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  <url>
+    <loc>https://yy13.113.co.jp/index.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-03-05T00:53:59+00:00</lastmod>
+    <mobile:mobile />
+  </url>
+  <url>
+    <loc>https://yy13.113.co.jp/bijinessphone16.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-03-05T00:54:51+00:00</lastmod>
+    <mobile:mobile />
+  </url>
+  <url>
+    <loc>https://yy13.113.co.jp/bijinessphone24.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-03-05T00:55:07+00:00</lastmod>
+    <mobile:mobile />
+  </url>
+  <url>
+    <loc>https://yy13.113.co.jp/bijinessphone8.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-03-05T00:54:36+00:00</lastmod>
+    <mobile:mobile />
+  </url>
+  <url>
+    <loc>https://yy13.113.co.jp/companyinfo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-03-05T00:55:20+00:00</lastmod>
+    <mobile:mobile />
+  </url>
+  <url>
+    <loc>https://yy13.113.co.jp/companyprofile.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-03-05T01:11:53+00:00</lastmod>
+    <mobile:mobile />
+  </url>
+  <url>
+    <loc>https://yy13.113.co.jp/topmessage.htm</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-03-05T01:46:53+00:00</lastmod>
+    <mobile:mobile />
+  </url>
+</urlset>
