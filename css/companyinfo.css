@@ -22,13 +22,13 @@
 }
 .slide-title{
 	position: absolute;
-	top: 340px;
-	left: 200px;
+	top: 40%;
+	left: 10%;
 	font-size: 40px;
 	font-weight: 900;
 	color: #FFFFFF;
 	line-height: 40px;
-	text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+	text-shadow: 2px 3px 3px rgba(0,0,0,0.4);
 }
 .container-column{
 	width: 80%;
@@ -91,7 +91,7 @@
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
     outline-color: transparent;
     outline-offset: 12px;
-    cursor: pointer
+    cursor: pointer;
     }
 .box2 {
 	border-radius: 5px;
@@ -162,4 +162,14 @@
 
 .service-link:hover {
   text-decoration: underline;
+}
+.google-map{
+width:100%;
+overflow:hidden;
+}
+
+.google-map iframe{
+width:100%;
+max-width:600px;
+height:450px;
 }
