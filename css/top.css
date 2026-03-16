@@ -1,4 +1,7 @@
-﻿
+﻿img{
+	max-width:100%;
+	height:auto;
+}
 .today{
 	width:79%;
 	margin-left:10%;
@@ -503,7 +506,17 @@ button:hover .arrow:before {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+/* フッターロゴ調整 */
 
+.foot-logo{
+	display:block;
+	text-align:center;
+}
+
+.foot-logo img{
+	max-width:100%;
+	height:auto;
+}
 
 /* ここから追加 */
 
@@ -666,9 +679,6 @@ width:15%
 .con-m3-item-sankaku{
 	width: 3%;
 
-}
-.con-m3-item2{
-	display:none
 }
 .con-m4-left{
 	width: 100%;
