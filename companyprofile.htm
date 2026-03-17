@@ -16,7 +16,7 @@
 <!--menu-->
     <div class="menu"><div class="menu-inner"><div class="navArea"><nav><div class="inner">
      <ul class="menu-content">
-        <li><a href="./index.html"><img  class="logo" alt="修理屋～電気通信工事" src="./common/uvs-logo.png" width="90%"><i class="blogicon-chevron-down"></i></a></li>
+        <li><a href="./index.html"><img class="logo" alt="修理屋～電気通信工事" src="./common/uvs-logo.png"><i class="blogicon-chevron-down"></i></a></li>
         <li><a href="./index.html">TOP<i class="blogicon-chevron-down"></i></a></li>
         <li><a href="./companyinfo.html">企業情報<i class="blogicon-chevron-down"></i></a>
             <ul class="second-content">
@@ -36,7 +36,7 @@
 <span></span>
 <span></span>
 <span></span>
-</div>                
+</div>
 </div></div>
 </div> <!--menu-end-->
 <!--高さ調整スマホにしたときの連絡先-->
@@ -69,7 +69,7 @@
 
 <div class="container-messeage">
  <div class="messeage-item1">
- <p class="message-item1-1"><h2 style="text-align:center">愛知県全域の防犯・通信・音響工事なら<br>(株)ユニバーサルエージェンシーにお任せください！！</h2>
+ <h2 class="message-item1-1" style="text-align:center">愛知県全域の防犯・通信・音響工事なら<br>(株)ユニバーサルエージェンシーにお任せください！！</h2>
     </div>
 <div class="flex">
   <figure class="image">
@@ -109,9 +109,10 @@
   </table><br>
 </div><!--container-messeage--end-->
 <div class="google-map">
+  <div class="map-container">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.0353241675616!2d137.41126901168465!3d34.754702980199774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004d2f74491f157%3A0x2d8da4cddfcee474!2z5qCq5byP5Lya56S-44Om44OL44OQ44O844K144Or44Ko44O844K444Kn44Oz44K344O8!5e0!3m2!1sja!2sjp"
 loading="lazy"></iframe>
-</div> 
+</div> </div>
 <address class="address-mid"><p class="address-title2">お気軽にお問い合わせください</p>
 <span class="item-left">
  <span class="item-left1">ビジネスホンのご相談窓口・平日9時～17時</span><br>
@@ -145,6 +146,14 @@ loading="lazy"></iframe>
    <span class="footer-item3"><a href="https://nagoya-camera.mikawa.ne.jp/form_fone.html">お問合せフォーム</a></span></div>
  <p class ="copy"><a href="">株式会社ユニバーサルエージェンシー～uvs電気通信工事</a> All Rights Reserved.</p>
 </footer>
-<script src="./js/menu.js"></script>
+<script>
+const btn = document.querySelector(".toggle_btn");
+const nav = document.querySelector("nav");
+
+btn.addEventListener("click", function(){
+document.body.classList.toggle("open");
+});
+</script>
+
 </body>
 </html>
